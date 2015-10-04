@@ -16,9 +16,9 @@ import java.util.HashMap;
 public class ColorPickerDialog extends DialogFragment{
 
     //Need text to display; these will be shown in this order in the dialog
-    final CharSequence[] COLOR_CHOICES = { "Red", "Magenta", "Green"};
+    final CharSequence[] COLOR_CHOICES = { "Red", "Magenta", "Green"};   //Replace with colors of your choice if desired
     //Parallel array with the color each choice represents
-    final int[] COLOR_VALUES = { Color.RED, Color.MAGENTA, Color.GREEN};   //Replace with colors of your choice
+    final int[] COLOR_VALUES = { Color.RED, Color.MAGENTA, Color.GREEN};   //Replace with colors of your choice - match with Strings in COLOR_CHOICES
 
     interface ColorDialogListener {
         void onNewColorSelected(int color);
